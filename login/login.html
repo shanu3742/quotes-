@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration form</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+  <!--for pc-->
+  <div class="reg  pc "><p class="p pc">Registration</p></div>
+  <div class="pc"><a class="pc hh1"href="/regs">Register</a></div>
+  <div   class="pc"><a id="ram" class="pc hh2"  href="/Login">Login</a></div>
+  <div style="border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;" data-aos="flip-right" class="form pc ">
+      <form class="pure-form pc ">
+         
+          <div class="row pc">
+             
+                <input id="input2" style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 9%;"type="text" class="form-control" id="email" placeholder="Enter email" name="email"required="">
+              </div>
+              
+           <div class="row pc">
+          <input id="input3" style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 12%;" type="password" placeholder="Password" id="password" required="">
+          </div>
+         
+        
+         
+  
+         
+
+
+          <div style="position: absolute; bottom: 1%; left: 43%; background-color: red; width: 20%; height: 10%; text-align: center; font-size: 200%; border-top-left-radius: 60%; 
+           border-top-right-radius: 60%;
+           border-bottom-left-radius: 60%;
+           border-bottom-right-radius: 60%;" type="submit" class="btn btn-primary pc">Submit</div>
+        </form>
+
+
+
+
+  </div> 
+  <!--for tablet-->
+  <div class="reg  tablet "><p class="p tablet">Registration</p></div>
+  <div class="tablet" ><a class="tablet hh10"href="/regs">Register</a></div>
+  <div class="tablet"><a class="tablet hh11"href="/Login">Login</a></div>
+
+  <div style="border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;" data-aos="flip-right" class="form tablet">
+      <form class="pure-form tablet ">
+         
+          <div class="row tablet">
+             
+                <input id="input2" style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 18%;"type="text" class="form-control" id="email" placeholder="Enter email" name="email"required="">
+              </div>
+          
+              <!--confrm password-->
+              
+           <div class="row tablet">
+          <input id="input3"  style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 24%;" type="password" placeholder="Password" id="password" required="">
+          </div>
+          
+        
+         
+
+
+          <div style="position: absolute; bottom: 1%; left: 43%; background-color: red; width: 20%; height: 10%; text-align: center; font-size: 200%; border-top-left-radius: 60%; 
+           border-top-right-radius: 60%;
+           border-bottom-left-radius: 60%;
+           border-bottom-right-radius: 60%;" type="submit" class="btn btn-primary tablet">Submit</div>
+        </form>
+
+
+
+
+  </div> 
+  <!--for mobile-->
+  <div class="reg  mob "><p class="p mob">Registration</p></div>
+  <div class="mob"><a class="mob h20" href="/regs">Register</a></div>
+  <div class="mob"><a class="mob h21"href="/Login">Login</a></div>
+  <div style="border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;" data-aos="flip-right" class="form mob">
+      <form class="pure-form mob ">
+         
+          <div class="row mob">
+             
+                <input id="input2" style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 32%;" type="text" class="form-control" id="email" placeholder="Enter email" name="email"required="">
+              </div>
+          
+              <!--confrm password-->
+              
+           <div class="row mob">
+          <input id="input3" style="color: red; position: absolute; left: 25%; width: 50%; height: 7%; margin-top: 43%;" type="password" placeholder="Password" id="password" required="">
+          </div>
+         
+        
+          
+
+          <div style="position: absolute; bottom: 12%; left: 43%; background-color: red; width: 20%; height: 10%; text-align: center; font-size: 200%; border-top-left-radius: 60%; 
+           border-top-right-radius: 60%;
+           border-bottom-left-radius: 60%;
+           border-bottom-right-radius: 60%;" type="submit" class="btn btn-primary mob">Submit</div>
+        </form>
+
+
+
+
+  </div> 
+      
+      
+ 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+   
+    </script>
+    <script src=pass.js></script>
+    <script>
+        $("input:checkbox").on('click', function() {
+    // in the handler, 'this' refers to the box clicked on
+    var $box = $(this);
+    if ($box.is(":checked")) {
+      // the name of the box is retrieved using the .attr() method
+      // as it is assumed and expected to be immutable
+      var group = "input:checkbox[name='" + $box.attr("name") + "']";
+      // the checked state of the group/box on the other hand will change
+      // and the current value is retrieved using .prop() method
+      $(group).prop("checked", false);
+      $box.prop("checked", true);
+    } else {
+      $box.prop("checked", false);
+    }
+  });
+    </script>
+</body>
+</html>

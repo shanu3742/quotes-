@@ -1,0 +1,1175 @@
+@media(min-width:769px)
+{
+html{
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.tablet{
+display: none;
+}
+.mob{
+  display: none;
+}
+.quotes10{
+  position: absolute;
+  top: 55%;
+ color: red;
+
+
+}
+.author10{
+  position: absolute;
+  top: 68%;
+  right: 72%;
+ color: red;
+
+
+}
+.quotes11{
+  position: absolute;
+  top: 55%;
+  right: 33%;
+  color: red;
+
+  
+
+}
+.author11{
+  position: absolute;
+  top: 68%;
+  right: 40%;
+ color: red;
+
+
+}
+.quotes12{
+  position: absolute;
+  top: 55%;
+  right: 0%;
+  color: red;
+  
+
+}
+.author12{
+  position: absolute;
+  top: 68%;
+  right: 2%;
+ color: red;
+
+
+}
+ .h10{
+      
+      padding-left:25px;
+      padding-top: 15px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 30px;
+      margin: 0;
+      cursor: pointer;
+      }
+      .h10:hover{
+        color: #ddd;
+      }
+      .nav10{
+      display: flex;
+      background: #9966ff;
+      width: 100%;
+      }
+      .ul10{
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      width: 100%;
+      text-align: right;
+      float: right;
+      }
+      .li10{
+      display: inline-flex;
+      padding-right: 25px;
+      text-align: center;
+      }
+      .li10:last-child{
+        padding-right: 0;
+      }
+      .a10{
+      text-decoration: none;
+      color: #fff;
+      float: right;
+      text-align: right;
+      text-decoration: none;
+      padding: 0.5rem;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      letter-spacing: 0.7px;
+      }
+      .a10:hover{
+      text-decoration: none;
+      background: #4C8CB5;
+      }
+      .fa-bars{
+      display: none;
+      }
+
+      .love10{
+                  position: relative;
+                  width: 100vw;
+                  height: 91.7vh;
+                  background-color:#998ab6;
+            }
+
+  .span10{
+            position: absolute;
+            color: red;
+           background-color: red;
+           animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+      }
+      @keyframes example {
+      from {background-color: green; color:white; width:22px}
+      to {background-color: yellow; color:red; width:22px}
+}
+.sha10{
+                  position: absolute;
+                  float: left;
+                  top:6rem;
+                  margin: 0;
+                  padding: 0;
+                  display: block;
+            }
+
+            @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 4rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 6rem;
+                }
+                       }
+
+                       .whats10{
+                                
+                                position: absolute;
+                                top: -5rem;
+                                left:10rem;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+                                          .whats11{
+                                
+                                position: absolute;
+                                top: -6.5rem;
+                                left:20rem;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+                                             .whats12{
+                                
+                                position: absolute;
+                                top: -11.9rem;
+                                left:30rem;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+                                          .whats13{
+                                
+                                position: absolute;
+                                top: -17.9rem;
+                                left:40rem;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+                                          
+                                           .whats14{
+                                
+                                position: absolute;
+                                top: -23.9rem;
+                                left:50rem;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+            .col-lg-1{
+                  width: 8.33%
+            }
+            .col-lg-2{
+                  width: 16.66%
+            }
+            .col-lg-3{
+                  width: 25%
+            }
+            .col-lg-4{
+                  width: 33.32%
+            }
+            .col-lg-5{
+                  width: 41.65%
+            }
+            .col-lg-6{
+                  width: 50%
+            }
+            .col-lg-7{
+                  width: 58.31%
+            }
+            .col-lg-8{
+                  width: 66.64%
+            }
+            .col-lg-9{
+                  width: 75%
+            }
+            .col-lg-10{
+                  width: 83.3%
+            }
+            
+            .col-lg-11{
+                  width: 91.63%
+            }
+            .col-lg-12{
+                  width: 100%
+            }
+            
+            .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+            {
+
+                  float: left;
+                  
+            }
+            .img10{
+
+              top: 19%;
+              border-top-right-radius: 40%;
+              border-top-left-radius: 40%;
+              border-bottom-right-radius: 40%;
+              border-bottom-left-radius: 40%;
+              margin-left:14%;
+            }
+            @keyframes mymove {
+  from {width:15%}
+  to {width:13%}
+}
+    
+
+.img10 {
+  
+  animation: mymove 5s infinite;
+}
+
+  @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 4rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 6rem;
+                }
+                       }
+
+                       .whats20{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 92%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }                                         
+       
+
+        @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 4rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 6rem;
+                }
+                       }
+
+                       .whats21{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 86%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }  
+
+                                           @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 4rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 6rem;
+                }
+                       }
+
+                       .whats22{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 55%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }   
+
+                                           @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 4rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 6rem;
+                }
+                       }
+
+                       .whats23{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 49%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          } 
+
+                                           .whats24{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 20%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          } 
+                                           .whats25{
+                                
+                                position: absolute;
+                                top: 70%;
+                                right: 13%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }  
+                                          .Next10{
+                                            position: absolute;
+                                            right: 40%;
+                                            bottom: 1%;
+                                            background-color: red;
+                                            width: 20%;
+                                            height: 5%;
+                                            color: white;
+                                            text-align: center;
+                                            justify-content: center;
+                                            font-size: 2rem;
+                                            border-top-right-radius: 50%;
+                                            border-bottom-right-radius: 50%;
+                                            border-top-left-radius: 50%;
+                                            border-bottom-left-radius: 50%;
+                                          }                                    
+}
+
+
+
+@media(max-width: 475px){
+            html{
+                  font-size: 45%
+            }
+            .love{
+                  position: relative;
+                  width: 100vw;
+                  height: 88.4vh;
+                  background-color:rgb(197, 195, 201);
+            }
+            .quot{
+                  position: absolute;
+                  bottom:27%;
+                  color: white;
+                  font-size: 1.5rem;
+            }
+             .author{
+            position: absolute;
+            color: white;
+            font-size: 1.5rem;
+            bottom: 24%;
+            left: 29rem;
+            
+      }
+      span{
+            position: absolute;
+            color: red;
+           background-color: red;
+           animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+      }
+      @keyframes example {
+      from {background-color: green; color:white; width:22px}
+      to {background-color: yellow; color:red; width:22px}
+}
+      .next{
+            position: absolute;
+            top: 94.2%;
+            left: 37%;
+            background-color: red;
+            height:3rem;
+            width:10rem;
+            color: white;
+            font-size:2rem;
+      }
+            
+            
+            .col-md-1{
+                  width: 8.33%
+            }
+            .col-md-2{
+                  width: 16.66%
+            }
+            .col-md-3{
+                  width: 25%
+            }
+            .col-md-4{
+                  width: 33.32%
+            }
+            .col-md-5{
+                  width: 41.65%
+            }
+            .col-md-6{
+                  width: 50%
+            }
+            .col-md-7{
+                  width: 58.31%
+            }
+            .col-md-8{
+                  width: 66.64%
+            }
+            .col-md-9{
+                  width: 75%
+            }
+            .col-md-10{
+                  width: 83.3%
+            }
+            
+            .col-md-11{
+                  width: 91.63%
+            }
+            .col-md-12{
+                  width: 100%
+            }
+            
+            .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
+            {
+                  float: left;
+                  border: 1px solid green;
+            }
+
+
+            
+            
+            .sha{
+                  position: absolute;
+                  float: left;
+                  top:6rem;
+                  margin: 0;
+                  padding: 0;
+                  display: block;
+            }
+            @keyframes r {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 1rem;
+                }
+                       }
+
+                       .whats{
+                                
+                                position: absolute;
+                                
+                                
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+            
+            
+
+      .nav1{
+      display: block;
+      background: #9966ff;
+      width: 100%;
+      }
+      .logo{
+      text-align: center;
+      display: flex;
+      padding: 10px;
+      }
+      .img{
+      position: absolute;
+      width:50%;
+      top: 6rem;
+      left: 35%;
+
+      height: auto;
+      z-index: 3;
+      border-top-left-radius: 10rem;
+      border-top-right-radius: 10rem;
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+
+      }
+
+      .img {
+  
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {height:auto; ;width:50%}
+  to {height:auto;width:25%}
+}
+      .ul{
+      background: #000;
+      display: none;
+      float: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      width: 100%;
+      }
+      .li{
+      display: grid;
+      text-align:center;
+      padding-right: 0;
+      }
+      .a1{
+      float: none;
+      text-align: center;
+      }
+       .a1{
+      text-decoration: none;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      text-transform: capitalize;
+      font-size: 20px;
+      letter-spacing: 0.7px;
+      }
+      .a1:hover{
+      text-decoration: none;
+      background: #4C8CB5;
+      }
+      .fa{
+      text-align: right;
+      position: absolute;
+      display: block;
+      font-size: 36px;
+      float: right;
+      cursor: pointer;
+      margin-left: auto;
+      margin-top: -37px;
+      margin-right: 10px;
+      color: #fff;
+
+      }
+      div{
+        padding: 10px;
+      }
+      .h4{
+        padding: 0;
+        text-align: center;
+      }
+      .h4{
+      
+      padding-left:25px;
+      padding-top: 15px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 30px;
+      margin: 0;
+      cursor: pointer;
+      }
+      .h4:hover{
+        color: #ddd;
+      }
+
+@keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 1rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 0.5rem;
+                }
+                       }
+
+                       .whats1{
+                                
+                                position: absolute;
+                                bottom: 19%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+                             .whats3{
+                              right: 65%;
+                             }  
+                             .tablet{
+                              display: none;
+                             }
+                             .pc{
+                              display: none;
+                             }
+                           
+
+      }
+
+
+
+
+
+
+
+
+
+@media(min-width:476px) and (max-width:768px){
+html{
+  margin: 0;
+  padding: 0;
+  font-size: 55%;
+
+}
+
+            .col-md1-1{
+                  width: 8.33%
+            }
+            .col-md2-2{
+                  width: 16.66%
+            }
+            .col-md3-3{
+                  width: 25%
+            }
+            .col-md4-4{
+                  width: 33.32%
+            }
+            .col-md5-5{
+                  width: 41.65%
+            }
+            .col-md6-6{
+                  width: 50%
+            }
+            .col-md7-7{
+                  width: 58.31%
+            }
+            .col-md8-8{
+                  width: 66.64%
+            }
+            .col-md9-9{
+                  width: 75%
+            }
+            .col-md10-10{
+                  width: 83.3%
+            }
+            
+            .col-md11-11{
+                  width: 91.63%
+            }
+            .col-md12-12{
+                  width: 100%
+            }
+            
+            .col-md1-1,.col-md2-2,.col-md3-3,.col-md4-4,.col-md5-5,.col-md6-6,.col-md7-7,.col-md8-8,.col-md9-9,.col-md10-10,.col-md11-11,.col-md12-12
+            {
+                position: absolute;
+                margin-right: 1rem;
+                  
+            }
+.img{
+  display: none;
+}
+
+.h4{
+  display: none;
+}
+.bar{
+  display: none;
+}
+.li{
+  display: none;
+
+}
+#sa{
+  display: none;
+}
+.love{
+  display: none;
+}
+.author{
+  display: none;
+}
+.next{
+  display: none;
+}
+.whats1{
+  display: none;
+}
+.fa-whatsapp{
+  display: none;
+}
+.fa-twitter{
+  display: none;
+}
+.fa{
+  display: none;
+}
+.a1{
+  display: none;
+}
+.kk{
+  display: none;
+}
+.kk1{
+  display: none;
+}
+nav{
+  position: relative;
+      display: block;
+      background: #9966ff;
+      width: 100%;
+      margin: 0;
+      padding:0;
+      }
+span{
+            position: absolute;
+            color: red;
+           background-color: red;
+           animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+      }
+      @keyframes example {
+      from {background-color: green; color:white; width:22px}
+      to {background-color: yellow; color:red; width:22px}
+}
+
+.logo{
+      text-align: center;
+      display: flex;
+      padding: 10px;
+      }
+
+
+.ul2{
+      background: #000;
+      display: none;
+      float: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      width: 100%;
+      }
+      .li2{
+      display: grid;
+      text-align:center;
+      padding-right: 0;
+      }
+      .a2{
+      float: none;
+      text-align: center;
+      }
+       .a2{
+      text-decoration: none;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      text-transform: capitalize;
+      font-size: 20px;
+      letter-spacing: 0.7px;
+      }
+      .a2:hover{
+      text-decoration: none;
+      background: #4C8CB5;
+      }
+      .fa{
+      text-align: right;
+      position: absolute;
+      display: block;
+      font-size: 36px;
+      float: right;
+      cursor: pointer;
+      margin-left: auto;
+      margin-top: -37px;
+      margin-right: 10px;
+      color: #fff;
+
+      }
+      h4{
+        padding: 0;
+        text-align: center;
+      }
+      h4{
+      
+      padding-left:25px;
+      padding-top: 15px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 30px;
+      margin: 0;
+      cursor: pointer;
+      }
+      h4:hover{
+        color: #ddd;
+      }
+
+.love1{
+                  position: relative;
+                  width: 100vw;
+                  height: 91.7vh;
+                  background-color:rgb(197, 195, 201);
+            }
+
+              .sha1{
+                  position: absolute;
+                  float: left;
+                  right: 68%;
+                  top:10rem;
+                  margin: 0;
+                  padding: 0;
+                  display: block;
+            }
+
+            @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 1.5rem;
+                }
+                       }
+
+                       .whats6{
+                                
+                                position: absolute;
+                                bottom: 19%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+
+    .img2{
+     border-top-left-radius: 20rem;
+     border-top-right-radius:20rem;
+     border-bottom-right-radius: 20rem;
+     border-bottom-left-radius: 20rem;
+     position: absolute;
+     z-index:1;
+
+     width: 25rem;
+     margin:10rem;
+     
+    }
+
+    .img3{
+     border-top-left-radius: 20rem;
+     border-top-right-radius:20rem;
+     border-bottom-right-radius: 20rem;
+     border-bottom-left-radius: 20rem;
+     position: absolute;
+     right: 1%;
+     z-index:1;
+     width: 25rem;
+     margin:10rem;
+     
+    }
+      .img2 {
+  
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {width:25rem}
+  to {width:12.5rem}
+}
+    
+
+.img3 {
+  
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {width:25rem}
+  to {width:12.5rem}
+}
+    
+.quotes1{
+  left: 2%;
+  color: red;
+  bottom: 33%;
+  z-index: 3;
+
+}
+.author1{
+  color: red;
+  position: absolute;
+  bottom: 28%;
+  right: 50%;
+
+}
+.quotes2{
+  color: red;
+  bottom: 33%;
+  right: 1%;
+  z-index: 3
+
+
+}
+.author2{
+  color: red;
+  position: absolute;
+  bottom: 28%;
+  right: 3%;
+
+}
+@keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 5rem;
+                }
+                       }
+
+                       .whats2{
+                                
+                                position: absolute;
+                                bottom: 27%;
+                                right:80%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+                                          @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 5rem;
+                }
+                       }
+
+                       .whats5{
+                                
+                                position: absolute;
+                                bottom: 27%;
+                                right:75%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+
+                                                   @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 5rem;
+                }
+                       }
+
+                       .whats7{
+                                
+                                position: absolute;
+                                bottom: 27%;
+                                right:10%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+                               
+
+                          
+                                                   @keyframes r1 {
+            from {
+                transform: rotate(0deg);
+                font-size: 3rem;
+                     }
+ 
+            to {
+                 transform: rotate(360deg);
+                 font-size: 5rem;
+                }
+                       }
+
+                       .whats9{
+                                
+                                position: absolute;
+                                bottom: 27%;
+                                right:15%;
+                                transform: translateY(-50%);
+                                transform: translateX(-50%);
+                                
+                               
+                                animation-name: r1;
+                                animation-duration: 5000ms;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+                                          }
+
+              .nxt{
+                color: white;
+                font-size: 3rem;
+                position: absolute;
+                border: 1rem solid red;
+                border-bottom-left-radius:1rem; 
+                border-bottom-right-radius:1rem;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                bottom: 1%;
+                background-color: red;
+                right: 44%;
+              }
+              .pc{
+                display: none;
+              }
+
+                                    
+
+
+}
+
+
+
+
+
+
+

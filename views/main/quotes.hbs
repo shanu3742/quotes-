@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+
+    body {
+background: #222f3e;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 150vw;
+        height: 110vh;
+        background: var(--main-color);
+        border-radius: 5px;
+        font-family: "dancing script", cursive;
+        overflow: hidden;
+        color: #797d7f;
+        letter-spacing: 0.5px;
+        display: grid;
+        place-items: center;
+
+    }
+    .inner{
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        opacity: 1;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%,-50%);
+        background: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 1.5rem rgb(0,0,0,0.5);
+        font-size: 1.3rem;
+    }
+    .number::before{
+        content: "";
+        position: absolute;
+        top: -130px;
+        right: -30px;
+        width: 90px;
+        height: 200px;
+        background-color: crimson;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        z-index: -1;
+        box-shadow: 0 0 0.7rem rgb(0,0,0,0.5);
+    }
+    .number{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        font-size: 12px;
+        margin: 0;
+        top: 15px;
+        right: 15px;
+        color: blue;
+    
+
+    }
+    #tweetMe:hover{
+        animation: rot 1s linear;
+    }
+
+    @keyframes rot{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .start-quote{
+        position: absolute;
+        top: 20%;
+        font-size: 25px;
+        
+
+    }
+    .start-quote1{
+        position: absolute;
+        top: 50%;
+        right: 1%;
+        font-size: 25px;
+        
+
+    }
+
+    .quotes{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        width: 80%;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+
+
+    }
+
+    .quotes:hover{
+        animation: rot1 1s linear;
+    }
+
+    @keyframes rot1{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    #myBtn{
+        position: absolute;
+        top: -5%;
+        right: 35%;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #myBtn:hover{
+        animation: rot5 1s alternate;
+    }
+
+    @keyframes rot5{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .button{
+        position: absolute;
+        right: 18.5%;
+        top: 85%;
+        width: 350px;
+        height: 40px;
+        background-color: rgb(55, 55, 219);
+        text-align: center;
+        border-radius: 5px;
+    }
+    .button:hover{
+        animation: rot2 1s alternate;
+    }
+
+    @keyframes rot2{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    #author{
+        position: absolute;
+        top: 55%;
+        right: 1%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+</style>
+
+</head>
+<body>
+   
+    
+   
+    
+
+
+    <div class="container">
+
+        <div class="inner" data-aos="zoom-in-up">
+            <div class="box">
+<p class="number" id="tweetMe">Tweet</p>
+<div class="text">
+    <i class="start-quote fas fa-quote-left"></i>
+    <p id="quotes" class="quotes"></p>
+     <p id="author" class="author"></p>
+     <i class="start-quote1 fas fa-quote-right"></i>
+</div>
+
+         
+
+</div>
+
+
+
+        </div>
+        <div class="button">
+            <p class="button1" id="myBtn">Next Quotes</p>
+        
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        let realData = "";
+    let quotesData="";
+
+
+
+    //tweet the quotes 
+   const tweetNow= () =>{
+   
+      let tweetpost= `https://twitter.com/intent/tweet?text=${quotesData.text} ${quotesData.author} `;
+      window.open(tweetpost);
+      
+     
+    };
+    
+    // code given above for tweet the quotes
+
+
+
+
+
+
+
+    const getNewquotes = ()=>{
+        let rnum =Math.floor( Math.random()*1643+1);
+        quotesData=realData[rnum];
+        //console.log(realData.length);
+        document.getElementById("quotes").innerHTML=realData[rnum].text;
+
+         
+           
+        // for that quotes whose author name is null or not given
+        if(realData[rnum].author==null){
+
+        
+        document.getElementById("author").innerHTML="Unknown";
+        }
+        else{
+            document.getElementById("author").innerHTML=realData[rnum].author;
+        }
+      //upto here for author name   
+        
+    };
+    
+
+
+
+
+
+
+
+
+       const getquotes = async() =>{
+    const api= "http://localhost:4060/apis";
+    try{
+
+        let data= await fetch(api);
+         realData = await   data.json();
+        getNewquotes();
+      
+    }catch(error){
+        
+
+
+    }
+};
+
+
+
+
+document.getElementById("myBtn").addEventListener("click", getNewquotes);
+ 
+document.getElementById("tweetMe").addEventListener("click",tweetNow);
+        getquotes();
+    </script>
+
+
+
+
+</body>
+</html>

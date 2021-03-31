@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quotes Lover</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   
+  </head>
+  <body>
+    {{> mobilec}}
+
+<!--Main code -->
+<!--for mobile -->
+<div class="love mob">
+  <!--share button-->
+  <div class="sha mob">
+
+<!-- whatsapp share -->
+  <a href="whatsapp://send?text=http://topquoteslover.com/" data-action="share/whatsapp/share"target="share on whatsapp"  class="fa fa-whatsapp whats wh1 a1" style="display: block; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;margin-bottom: 3rem" alt="whatsapp"></a>
+<!-- Facebook share -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://topquoteslover.com/ " target="_blank" class="fa fa-facebook whats a1" style="display: block; margin-top: 2rem; background-color: white; color: blue; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- Instagram share --> 
+  <a  href="http://www.instagram.com/krshanu.99" target="_blank" class="fa fa-instagram whats a1" style="display: block; margin-top: 8rem; background-color:#9c0941ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- tweeter share-->
+  <a href="http://twitter.com/intent/tweet/?url=http://topquoteslover.com/ " class="fa fa fa-twitter whats a1" style="display: block; margin-top: 14rem; background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- pinterest copy link -->
+
+   <a href="http://pinterest.com/pin/create/button/?url=http://topquoteslover.com/" class="fa fa-pinterest whats a1" style="display: block; margin-top: 20rem; background-color: red; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+</div>
+<!--end of share button-->
+
+
+<!--image api for mobile -->
+
+
+
+<img id="img30" class=" img" src="101.Jpg">
+
+<!-- quotes code is here --> 
+<p id="sa quotes50"  class="  quot ">"
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया"</p>
+
+
+<!--upto here -->
+
+<!-- whatsapp share code -->
+<a onclick="whatsappNow()" class="fa fa-whatsapp whats1 a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow()" class="fa  fa-twitter whats1 whats3  a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+<button onclick="getQuotes()" class="next">Next</button>
+
+</div>
+<!--end of mobile code -->
+<!--end of share button-->
+
+
+
+
+<!--tablet code from here -->
+{{> tabletc}}
+    <div class="love1 tablet">
+
+      <div class="sha1  tablet ">
+
+<!-- whatsapp share -->
+  <a href="whatsapp://send?text=http://topquoteslover.com/ " data-action="share/whatsapp/share"target="share on whatsapp"  class="fa fa-whatsapp whats6 tablet wh5 a2" style="display: block; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+<!-- Facebook share -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://topquoteslover.com/" target="_blank" class="fa fa-facebook tablet whats6 a2" style="display: inline;position: absolute; left:7rem; background-color: white; color: blue; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- Instagram share --> 
+  <a  href="http://www.instagram.com/krshanu.99" target="_blank" class="fa fa-instagram tablet whats6 a2" style="display: block; left: 13rem; background-color:#9c0941ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- tweeter share-->
+  <a href="http://twitter.com/intent/tweet/?url=http://topquoteslover.com/ " class=" fa fa-twitter tablet whats6 a2" style="display: block; left: 20rem; background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- pinterest copy link -->
+
+   <a href="http://pinterest.com/pin/create/button/?url=http://topquoteslover.com/ " class="fa fa-pinterest tablet whats6 a2" style="display: block; left: 26rem; background-color: red; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+</div>
+<!--end of share button-->
+
+
+<!-- image api for tablet -->
+<img id="img31" class=" tablet img2 " src="101.jpg">
+<img id="img32" class="tablet img3" src="101.Jpg">
+
+
+<p id="sa3" class=" tablet col-md6-6 quotes1"> "
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया" </p>
+
+
+
+<p id="sa4" class="col-md4-4 tablet quotes2"> "
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया" </p>
+
+
+
+
+<a onclick="whatsappNow1()" class="fa fa-whatsapp whats2 tablet a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow1()" class="fa  fa-twitter whats5 whats3  tablet a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+      
+
+<!-- share on whatsaap -->
+
+<a onclick="whatsappNow2()" class="fa fa-whatsapp whats7 tablet a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow2()" class="fa  fa-twitter whats9 whats3 tablet a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+
+  <div onclick="getQuotes1() " class="nxt">Next</div>
+
+</div>
+
+
+
+
+
+
+<!-- Laptop version -->
+
+
+<div class="pc">
+
+  {{> pcc}}
+
+
+
+
+    <div class="love10 pc">
+  <!--share button-->
+  <div class="sha10 pc">
+
+<!-- whatsapp share -->
+  <a href="whatsapp://send?text=http://topquoteslover.com/ " data-action="share/whatsapp/share"target="share on whatsapp"  class="fa fa-whatsapp whats10 wh10 a10" style="display: block; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;margin-bottom: 3rem" alt="whatsapp"></a>
+<!-- Facebook share -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://topquoteslover.com/ " target="_blank" class="fa fa-facebook whats11 wh11 a10" style="display: block; margin-top: 2rem; background-color: white; color: blue; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- Instagram share --> 
+  <a  href="http://www.instagram.com/krshanu.99" target="_blank" class="fa fa-instagram whats12 a10" style="display: block; margin-top: 8rem; background-color:#9c0941ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- tweeter share-->
+  <a href="http://twitter.com/intent/tweet/?url=http://topquoteslover.com/ " class="fa fa fa-twitter whats13 a10" style="display: block; margin-top: 14rem; background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+<!-- pinterest copy link -->
+
+   <a href="http://pinterest.com/pin/create/button/?url=http://topquoteslover.com/ " class="fa fa-pinterest whats14 a10" style="display: block; margin-top: 20rem; background-color: red; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+</div>
+<!--end of share button-->
+
+<img id="img34" class="col-lg-4 img10 pc" src="101.Jpg">
+<img id="img35" class="col-lg-4 img10 pc" src="101.Jpg">
+<img id="img36" class="col-lg-4 img10 pc" src="101.Jpg">
+
+<div>
+  <p id="sa20" class="col-lg-4 quotes10 pc"> "
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया "</p>
+<p id="sa21" class="col-lg-4 quotes11 pc"> "
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया"</p>
+<p id="sa22" class="col-lg-4 quotes12 pc"> "
+वो लोग बहुत ख़ुश-क़िस्मत थे
+जो इश्क़ को काम समझते थे
+या काम से आशिक़ी करते थे
+हम जीते-जी मसरूफ़ रहे
+कुछ इश्क़ किया कुछ काम किया
+काम इश्क़ के आड़े आता रहा
+और इश्क़ से काम उलझता रहा
+फिर आख़िर तंग आ कर हम ने
+दोनों को अधूरा छोड़ दिया"</p>
+</div>
+
+
+
+
+
+
+<a onclick="whatsappNow5()" class="fa fa-whatsapp whats20  a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow5()" class="fa  fa-twitter whats21  a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+  <a onclick="whatsappNow6()" class="fa fa-whatsapp whats22  a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow6()" class="fa  fa-twitter whats23  a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+  <a onclick="whatsappNow7()" class="fa fa-whatsapp whats24  a1" style="display: inline; color:white; background-color:  #7cf10def; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; z-index:3 ;" alt="whatsapp"></a>
+
+<!-- share on twiter-->
+  <a onclick="tweetNow7()" class="fa  fa-twitter whats25  a1" style="display:inline;  background-color: #6ca3f5ef; color: white; text-align: center; z-index: 3; border-top-left-radius: 20px;  border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" ></a>
+
+<div onclick="getQuotes5()" class="Next10">Next</div>
+</div>
+
+</div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    
+
+
+    
+
+
+
+    <script>
+      $(document).ready(function(){
+        $("i").click(function(){
+          $("ul").toggle();
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("i").click(function(){
+          $("ul2").toggle();
+        });
+      });
+    </script>
+    
+
+    <!-- random image generator machine first machine  and its is for mobile-->
+
+<script>
+  let postData="";
+/*
+
+  const getImage = async() => {
+    const api = "http://localhost:4060/apis"
+    try
+    {
+      let data = await fetch(api);
+      let redata =await   data.json();
+      let rnum =Math.floor( Math.random()*101+1);
+      console.log(redata[rnum].image)
+     document.getElementById("img30").src = `${rnum}.jpg`;
+      
+
+    }catch(err){
+      console.log(err);
+    }
+  }
+  
+*/
+
+  const getQuotes = async() => {
+    const api1 = "https://glacial-waters-65225.herokuapp.com/https://quotesforall.herokuapp.com/apis"
+    try
+    {
+      let database = await fetch(api1);
+      let redatabase =await   database.json();
+      let number =Math.floor( Math.random()*132+1);
+      postData= redatabase[number];
+      document.querySelector("p.quot").innerHTML = redatabase[number].Quotes;
+      document.getElementById("img30").src = `${number}.jpg`;
+
+    }catch(err){
+      console.log(err);
+    }
+  }
+
+
+ const tweetNow= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+
+    const whatsappNow= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+</script>
+<!-- End of mobile quotes share botton -->
+<!-- Start of tablet quotes share botton -->
+<script>
+  let postData1="";
+  let postData2="";
+  /*
+  const getImage1 = async() => {
+    const api = "http://localhost:4060/apis"
+    try
+    {
+      let data = await fetch(api);
+      let redata =await   data.json();
+      let rnum =Math.floor( Math.random()*101+1);
+      let rnum1 =Math.floor( Math.random()*101+1);
+      console.log(redata[rnum].image)
+      document.getElementById("img31").src = `${rnum}.jpg`;
+      document.getElementById("img32").src = `${rnum1}.jpg`;
+    }catch(err){
+      console.log(err);
+    }
+  }
+  */
+  
+  const getQuotes1 = async() => {
+    const api1 = "https://glacial-waters-65225.herokuapp.com/https://quotesforall.herokuapp.com/apis"
+    try
+    {
+      let database = await fetch(api1);
+      let redatabase =await   database.json();
+      let number =Math.floor( Math.random()*132+1);
+      let number1 =Math.floor( Math.random()*132+1);
+      postData1= redatabase[number];
+      postData2= redatabase[number1];
+      document.querySelector("p.quotes1").innerHTML = redatabase[number].Quotes;
+      document.querySelector("p.quotes2").innerHTML = redatabase[number1].Quotes;
+      document.getElementById("img31").src = `${number}.jpg`;
+      document.getElementById("img32").src = `${number1}.jpg`;
+
+    }catch(err){
+      console.log(err);
+    }
+  }
+
+  const tweetNow1= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData1.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+    const tweetNow2= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData2.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+
+     const whatsappNow1= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData1.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+     const whatsappNow2= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData2.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+
+</script>
+<!-- end of tablet share botton quotes -->
+<!--start of pc share button --> 
+<script>
+  let postData10="";
+  let postData11="";
+  let postData12="";
+ /* const getImage3 = async() => {
+    const api = "http://localhost:4060/apis"
+    try
+    {
+      let data = await fetch(api);
+      let redata =await   data.json();
+      let rnum =Math.floor( Math.random()*101+1);
+      let rnum1 =Math.floor( Math.random()*101+1);
+      let rnum2 =Math.floor( Math.random()*101+1);
+      console.log(redata[rnum].image)
+      document.getElementById("img34").src = `${redata[rnum].image}`;
+      document.getElementById("img35").src = `${redata[rnum1].image}`;
+      document.getElementById("img36").src = `${redata[rnum2].image}`;
+
+    }catch(err){
+      console.log(err);
+    }
+  }
+  */
+const getQuotes5 = async() => {
+    const api1 = "https://glacial-waters-65225.herokuapp.com/https://quotesforall.herokuapp.com/apis"
+    try
+    {
+      let database = await fetch(api1);
+      let redatabase =await   database.json();
+      let number =Math.floor( Math.random()*132+1);
+      let number1 =Math.floor( Math.random()*132+1);
+      let number2 =Math.floor( Math.random()*132+1);
+      postData10= redatabase[number];
+      postData11= redatabase[number1];
+      postData12= redatabase[number2];
+      document.querySelector("p.quotes10").innerHTML = redatabase[number].Quotes;
+      document.querySelector("p.quotes11").innerHTML = redatabase[number1].Quotes;
+      document.querySelector("p.quotes12").innerHTML = redatabase[number2].Quotes;
+      document.getElementById("img34").src = `${number}.jpg`;
+      document.getElementById("img35").src = `${number1}.jpg`;
+      document.getElementById("img36").src = `${number2}.jpg`;
+
+    }catch(err){
+      console.log(err);
+    }
+  }
+
+  const tweetNow5= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData10.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+    const tweetNow6= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData11.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+     const tweetNow7= async() =>{
+
+   try{
+      let tweetpost= `http://twitter.com/intent/tweet/?url= ${postData12.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+     const whatsappNow5= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData10.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+
+     const whatsappNow6= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData11.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+     const whatsappNow7= async() =>{
+
+   try{
+      let tweetpost= `whatsapp://send?text= ${postData12.Quotes}`;
+      window.open(tweetpost);
+    }catch(err){
+      console.log(err);
+    }
+      
+     
+    };
+</script>
+
+
+
+  </body>
+</html>
